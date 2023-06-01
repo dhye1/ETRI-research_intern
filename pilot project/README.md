@@ -14,6 +14,8 @@
 
 그래서, ClipCap을 이미지 캡셔닝 연구 모델로 삼아서 contribution을 찾아보고자 하여 연구를 진행하게 되었다.
 
+<br/>
+
 ### ClipCap Architecture
 
 ![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/809d9f46-9ab0-42cf-8d5c-7dcc826d4378)
