@@ -27,5 +27,5 @@ etri 언어지능연구실에서 연구인턴을 하면서 배운 연구일지, 
 ### 연구 내용
 - **pdf
 - 앞으로 진행해보고 싶은 연구
-  - MAGIC, ConZIC 등 제로샷 캡셔닝에서의 디코딩 방법
+  - MAGIC, ConZIC 등 캡셔닝모델에서 제안한 제로샷 디코딩 방법
   - prompt 관련 text generation 연구
