@@ -6,7 +6,7 @@ etri 언어지능연구실에서 연구인턴을 하면서 배운 연구일지, 
 
 - 이미지캡셔닝 관련 SOTA 모델 searching (01.16 ~ 01.27)
   - 다양한 decoding methods 관련 공부
-  - 현재 low resource 환경에서의 제로샷 캡셔닝 연구도 활발히 진행되고 있음 [관련 논문 정리](https://velog.io/@hyeda/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Language-Models-Can-See-Plugging-Visual-Controls-in-Text-Generation#unsupervised-approaches-zerocap) <br/>
+  - 현재 low resource 환경에서의 제로샷 캡셔닝 연구도 활발히 진행되고 있음 [[관련 논문 정리]](https://velog.io/@hyeda/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Language-Models-Can-See-Plugging-Visual-Controls-in-Text-Generation#unsupervised-approaches-zerocap) <br/>
   
 - 한국어 캡션 데이터 구축 (01.03 ~ 01.27) <br/>
 
