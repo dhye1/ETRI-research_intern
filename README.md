@@ -6,7 +6,7 @@ etri 언어지능연구실에서 연구인턴을 하면서 배운 연구일지, 
 
 - 이미지캡셔닝 관련 SOTA 모델 searching (01.16 ~ 01.27)
   - 다양한 decoding methods 관련 공부
-  - 현재 low resource 환경에서의 제로샷 캡셔닝 연구도 활발히 진행되고 있음 **[관련 논문 정리] <br/>
+  - 현재 low resource 환경에서의 제로샷 캡셔닝 연구도 활발히 진행되고 있음 [관련 논문 정리](https://velog.io/@hyeda/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Language-Models-Can-See-Plugging-Visual-Controls-in-Text-Generation#unsupervised-approaches-zerocap) <br/>
   
 - 한국어 캡션 데이터 구축 (01.03 ~ 01.27) <br/>
 
@@ -14,7 +14,7 @@ etri 언어지능연구실에서 연구인턴을 하면서 배운 연구일지, 
   - ClipCap 은 CLIP과 GPT2를 freeze하고, 두 모달을 연결시켜주는 MLP의 파라미터를 update 하는 과정에서 더 나은 prefix를 생성하는 방법으로 학습을 진행함 
 
   - What is prefix-tuning? 
-    - **"soft prompt" 방법론 공부
+    - ["prompt-based learning" 방법론 공부](https://velog.io/@hyeda/About-prompt-learning)
 
 - ClipCap 추가 연구 진행 (02.01 ~)
 
