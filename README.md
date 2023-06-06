@@ -28,4 +28,4 @@ etri 언어지능연구실에서 연구인턴을 하면서 배운 연구일지, 
 - [[pilot project]](https://github.com/dhye1/ETRI-research_intern/tree/main/pilot%20project)
 - 앞으로 진행해보고 싶은 연구
   - MAGIC, ConZIC 등 캡셔닝모델에서 제안한 제로샷 디코딩 방법
-  - prompt 관련 text generation 연구
+  - prompt-based learning 외에도 효율적인 학습을 위한 Parameter-Efficient Learning 방법들
