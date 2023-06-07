@@ -18,19 +18,18 @@
 
 ### ClipCap Architecture
 
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/809d9f46-9ab0-42cf-8d5c-7dcc826d4378)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/5bac44a9-ed71-4a66-b005-f35e984ac946)
 
 <br/>
 
 ### CLIP
-
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/2308df1b-2d4b-4176-8d86-398dcf80a5c4)
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/62ea046e-683d-4fb5-a2f9-954627cba3a5)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/0e45018d-ae70-4f34-8607-bad08e537a3a)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/ff941f0d-8d74-409c-b6e8-f871d9ba60c5)
 
 <br/>
 
 ### Prefix-tuning
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/25ef673e-297a-4380-963f-9fb7ed84358d)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/3ab75586-54b2-44e7-9b12-cecc84ccf046)
 
 <br/>
 
@@ -43,7 +42,8 @@
 - But, 저자들이 참고했다고 한 prefix-tuning 논문의 실험결과를 보면, prefix길이가 증가한다고 무조건 좋은 성능을 내는 것은 아님
 - 따라서 ClipCap 에서 prefix 길이를 조정하여 성능 비교하고, 결론을 도출 해보고자 함
 
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/e8c2a841-6582-4447-9e28-91e564d58210)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/d80221a4-c50a-4a12-a553-24a08a6f1853)
+
 
 ### Experiments
 기본 실험 세팅 및 데이터는 ClipCap 논문과 동일
@@ -53,18 +53,20 @@
   
 - ClipCap에서 사용하는 패키지를 설치하고 CLIP과, GPT2 모델을 불러온다.
 - prefix length = 1, 10, 20 으로 설정하여 학습 진행
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/5f4f7609-b0fa-4fed-9674-d8a66cc6ae82)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/7f02710a-cb44-44d2-9c5a-91311cc91228)
+
 (해당 코드를 터미널 환경에서 실행하여 학습)
 - 각각의 prefix length에 대해, 학습 과정에서 저장된 prefix.pt를 불러와서 추론 진행 
 <br/>
 
 ### Results
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/125278ba-18ca-4573-b451-d8d0c9fcf6b1)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/e72b5095-e32e-4bcc-aa2f-db1c00c2785f)
+
 - prefix length 별 BLEU score 확인 결과, 길이가 증가할 수록 점수가 올라가는 경향성 보인다.
 - BLEU score1과 4 기준 length=10 일 때 length=20 일 때 보다 미세하게 높음
 <br/>
 
-![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/5c459ab7-c064-4fef-a130-45027e095a3b)
+![image](https://github.com/dhye1/ETRI-research_intern/assets/96327142/a23e97e9-7dfd-4c42-8248-d758845ca15e)
 
 - prefix 길이가 증가하면 캡셔닝 성능이 좋아지는 경향성이 있지만, 모든 경우에서 더 좋은 것은 아님
 - 길이를 증가하는게 모델 성능을 개선할 수 있는 최적의 방법은 아니라고 생각함
