@@ -76,6 +76,7 @@
 - ClipCap에서 제시한 prefix-tuning 방법 외에도,  decoding 성능을 개선할 수 있는 방법에 대한 연구를 찾아보고자 함
 - 적절한 decoding method에 대한 연구 (Text generation model & decoding methods)
 - zero-shot 에 강한 representation을 활용한 연구 (CLIP)
+- prompt-based learning 외에도 효율적인 학습을 위한 Parameter-Efficient Learning 방법
 
 
 
