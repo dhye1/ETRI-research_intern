@@ -28,4 +28,4 @@ etri 언어지능연구실에서 연구인턴을 하면서 배운 연구일지, 
 - [[pilot project]](https://github.com/dhye1/ETRI-research_intern/tree/main/pilot%20project)
 - 앞으로 진행해보고 싶은 연구
   - MAGIC, ConZIC 등 최근 캡셔닝 관련 연구에서 제안된 zero-shot 디코딩 방법
-  - prompt-based learning 외에도 효율적인 학습을 위한 Parameter-Efficient Learning 방법
+  - prompt-based learning 외에도 효율적인 학습을 위한 Parameter-Efficient Learning 방법 [[LoRA 논문 리뷰]](https://velog.io/@hyeda/LoRA-Low-Rank-Adaptation-of-Large-Language-Models)
